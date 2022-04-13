@@ -100,8 +100,7 @@ function showAllRecentFaces() {
     else {
         for (var i = 0; i < allFaces.length; i++) {
             if (allFaces[i].faceDeleted == true){
-                allFaces[i].style.display = "none";
-                
+                allFaces[i].style.display = "none"; 
             }
         }
 
